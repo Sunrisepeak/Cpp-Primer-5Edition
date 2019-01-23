@@ -9,6 +9,6 @@ int main()
 	int ia[buf_size];
 	int ia1[4 * 7 - 14];
 	int ia2[txt_size()];
-	char st[11] = "fundamental";	//少一个存空字符的空间
+	char st[11] = "fundamental";	//less a memory unit to 'l'
 	return 0;
 }
