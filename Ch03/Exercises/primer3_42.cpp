@@ -1,18 +1,5 @@
 #include<iostream>
 #include<vector>
-<<<<<<< HEAD
-int main()
-{
-	std::vector<int> v{1,2,3,4,5,6};
-	int a[10] = {10};
-	for(decltype(v.size()) i = 0; i < v.size(); i++)
-	{
-		a[i] = v[i];
-	}
-	for(int i = 0; i < 10; i++)
-		std::cout << a[i] << std::endl;
-	return 0;
-=======
 #include<iterator>		//begin(), end()
 int main()
 {
@@ -26,5 +13,4 @@ int main()
 		std::cout << *it << " ";
 	putchar('\n');
     return 0;
->>>>>>> a5b35a78d6b95f4fddbb995d17b14e29d51a84f5
 }
