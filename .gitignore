@@ -26,3 +26,6 @@ x64
 #data file
 *.in
 *.out
+
+#Config file
+.vscode
